@@ -1,0 +1,25 @@
+Source: kross-interpreters
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.6.3),
+ debhelper (>= 7.3.16), cmake, pkg-kde-tools (>= 0.12), kdelibs5-dev (>= 4:4.6),
+ python-dev
+Uploaders: Modestas Vainius <modax@debian.org>
+Standards-Version: 3.9.2
+Homepage: http://www.kde.org
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kross-interpreters.git
+Vcs-Browser: http://git.debian.org/gitweb/?p=pkg-kde/kde-sc/kross-interpreters.git
+
+Package: krosspython
+Section: python
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Architecture: any
+Breaks: python-kde4 (<< 4:4.2.60)
+Replaces: python-kde4 (<< 4:4.2.60)
+Description: Python module for Kross
+ Kross is a scripting framework to enable scripting in various languages in all
+ kinds of KDE applications.
+ .
+ Kross itself is a part of KDELibs, this package contains the Kross Python
+ plugin.

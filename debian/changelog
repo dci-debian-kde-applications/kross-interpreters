@@ -1,7 +1,5 @@
 kross-interpreters (4:4.6.80+20110509+gf2f3ab95-0r1) UNRELEASED; urgency=low
 
-  TODO: Update debian/copyright.
-
   * Initial standalone release: split off from kdebindings.
   * Below you will find notable changes from previous kdebindings packaging.
 
@@ -14,5 +12,6 @@ kross-interpreters (4:4.6.80+20110509+gf2f3ab95-0r1) UNRELEASED; urgency=low
   * Clean up Uploaders list.
   * Clean up Build-Depends list: keep kdelibs5-dev, python-dev and standard
     build-dependencies.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Jun 2011 16:46:39 +0300

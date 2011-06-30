@@ -1,4 +1,4 @@
-kross-interpreters (4:4.6.80+20110509+gf2f3ab95-0r1) UNRELEASED; urgency=low
+kross-interpreters (4:4.6.90-0r1) UNRELEASED; urgency=low
 
   * Initial standalone release: split off from kdebindings.
   * Below you will find notable changes from previous kdebindings packaging.

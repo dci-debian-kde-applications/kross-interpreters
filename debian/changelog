@@ -1,4 +1,4 @@
-kross-interpreters (4:4.6.90-0r1) UNRELEASED; urgency=low
+kross-interpreters (4:4.6.90-1) experimental; urgency=low
 
   * Initial standalone release: split off from kdebindings.
   * Below you will find notable changes from previous kdebindings packaging.
@@ -14,4 +14,4 @@ kross-interpreters (4:4.6.90-0r1) UNRELEASED; urgency=low
     build-dependencies.
   * Update debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Jun 2011 16:46:39 +0300
+ -- Modestas Vainius <modax@debian.org>  Fri, 01 Jul 2011 00:43:10 +0300

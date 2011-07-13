@@ -1,5 +1,6 @@
 kross-interpreters (4:4.6.90-3) UNRELEASED; urgency=low
 
+  * Fix GitWeb Vcs URL.
 
  -- Modestas Vainius <modax@debian.org>  Wed, 13 Jul 2011 09:24:46 +0300
 

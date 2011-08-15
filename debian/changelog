@@ -1,8 +1,9 @@
 kross-interpreters (4:4.6.90-3) UNRELEASED; urgency=low
 
+  [ Modestas Vainius ]
   * Fix GitWeb Vcs URL.
 
- -- Modestas Vainius <modax@debian.org>  Wed, 13 Jul 2011 09:24:46 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 13 Jul 2011 09:24:46 +0300
 
 kross-interpreters (4:4.6.90-2) unstable; urgency=low
 

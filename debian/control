@@ -6,7 +6,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.4),
  debhelper (>= 7.3.16), cmake, pkg-kde-tools (>= 0.12), kdelibs5-dev (>= 4:4.7),
  python-dev
 Uploaders: Modestas Vainius <modax@debian.org>
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://projects.kde.org/projects/kde/kdebindings/kross-interpreters
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kross-interpreters.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kross-interpreters.git

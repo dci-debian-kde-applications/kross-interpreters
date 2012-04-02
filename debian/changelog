@@ -7,6 +7,7 @@ kross-interpreters (4:4.6.90-3) UNRELEASED; urgency=low
   * Add a watch file.
   * Update the Homepage.
   * Bump kde-sc-dev-latest build dependency to >= 4:4.7.4.
+  * Bump kdelibs5-dev build dependency to >= 4:4.7.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 13 Jul 2011 09:24:46 +0300
 

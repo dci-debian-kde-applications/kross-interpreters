@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
  debhelper (>= 7.3.16), cmake, pkg-kde-tools (>= 0.12), kdelibs5-dev (>= 4:4.9.90),
  python-dev
-Uploaders: Modestas Vainius <modax@debian.org>
+Uploaders: Modestas Vainius <modax@debian.org>, Sune Vuorela <sune@debian.org>
 Standards-Version: 3.9.3
 Homepage: http://projects.kde.org/projects/kde/kdebindings/kross-interpreters
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kross-interpreters.git

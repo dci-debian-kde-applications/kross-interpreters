@@ -1,6 +1,10 @@
 kross-interpreters (4:4.10.2-1) UNRELEASED; urgency=low
 
+  [ Diane Trout ]
   * New upstream release.
+
+  [ Sune Vuorela ]
+  * Add myself to uploaders.
 
  -- Diane Trout <diane@ghic.org>  Sun, 07 Apr 2013 16:11:10 -0700
 

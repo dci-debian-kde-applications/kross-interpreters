@@ -4,7 +4,8 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  debhelper (>= 9), cmake, pkg-kde-tools (>= 0.12), kdelibs5-dev (>= 4:4.11),
- python-dev
+ python-dev,
+ ruby, ruby-dev,
 Uploaders: Modestas Vainius <modax@debian.org>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
@@ -24,4 +25,17 @@ Description: Python module for Kross
  kinds of KDE applications.
  .
  Kross itself is a part of KDELibs, this package contains the Kross Python
+ plugin.
+
+Package: krossruby
+Section: ruby
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Architecture: any
+Breaks: libkde4-ruby1.8 (<< 4:4.2.60)
+Replaces: libkde4-ruby1.8 (<< 4:4.2.60)
+Description: Ruby module for Kross
+ Kross is a scripting framework to enable scripting in various languages in all
+ kinds of KDE applications.
+ .
+ Kross itself is a part of KDELibs, this package contains the Kross Ruby
  plugin.

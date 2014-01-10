@@ -8,6 +8,7 @@ kross-interpreters (4:4.11.3-2) UNRELEASED; urgency=low
     - backport upstream commit cc551d8feeed74ee923c53587ee08859560c3300 to fix
       build of krossruby with -Werror=format-security; patch
       upstream_ruby-fix-rb_raise-calls-with-arguments.patch.
+  * Bump Standards-Version to 3.9.5, no changes required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 Jan 2014 09:43:48 +0100
 

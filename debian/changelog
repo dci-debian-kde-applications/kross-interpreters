@@ -5,6 +5,20 @@ kross-interpreters (4:4.11.5-1) unstable; urgency=low
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jan 2014 10:47:37 +0100
 
+kross-interpreters (4:4.11.3-2) unstable; urgency=low
+
+  * Team upload.
+  * Add krossruby back: (Closes: #693533)
+    - copy control snippet and krossruby.install from the old kdebindings
+      packaging
+    - add the ruby and ruby-dev build dependencies
+    - backport upstream commit cc551d8feeed74ee923c53587ee08859560c3300 to fix
+      build of krossruby with -Werror=format-security; patch
+      upstream_ruby-fix-rb_raise-calls-with-arguments.patch.
+  * Bump Standards-Version to 3.9.5, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Fri, 10 Jan 2014 09:55:13 +0100
+
 kross-interpreters (4:4.11.3-1) unstable; urgency=low
 
   * New upstream release.

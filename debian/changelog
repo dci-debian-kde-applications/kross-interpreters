@@ -3,6 +3,7 @@ kross-interpreters (4:4.12.2-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Remove upstream patch: upstream_ruby-fix-rb_raise-calls-with-
     arguments.patch.
+  * Bump kde-sc-dev-latest build dependency.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 19:11:10 +0100
 

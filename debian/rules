@@ -2,5 +2,13 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
+RUBY_CONFIG_INCLUDE_DIR := $(shell ruby -rrbconfig -e 'puts RbConfig::CONFIG["rubyarchhdrdir"]')
+CMAKE_FLAGS := \
+  -DRUBY_CONFIG_INCLUDE_DIR=$(RUBY_CONFIG_INCLUDE_DIR) \
+  $(NULL)
+
+override_dh_auto_configure:
+	$(overridden_command) -- $(CMAKE_FLAGS)
+
 override_dh_auto_install:
 	$(overridden_command) --destdir=debian/tmp

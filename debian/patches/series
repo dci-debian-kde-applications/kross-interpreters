@@ -1,1 +1,2 @@
 upstream_ruby-fix-rb_raise-calls-with-arguments.patch
+upstream_ruby-do-not-reject-ruby-versions-greater-than-1.9.patch

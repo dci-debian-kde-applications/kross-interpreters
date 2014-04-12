@@ -3,6 +3,9 @@ kross-interpreters (4:4.11.5-3) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * Bump the cmake build dependency to 2.8.12.1-1.2, since that version fixes
     FindRuby.cmake for ruby 2.x versions.
+  * Backport upstream commit 7f919486919fb083670f66b5d9054a1c5e2179d0 to accept
+    ruby versions greater than 1.9; patch
+    upstream_ruby-do-not-reject-ruby-versions-greater-than-1.9.patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 12 Apr 2014 12:26:14 +0200
 

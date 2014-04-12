@@ -1,6 +1,6 @@
-kross-interpreters (4:4.11.5-3) UNRELEASED; urgency=medium
+kross-interpreters (4:4.11.5-3) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Fix krossruby build with ruby > 1.9: (Closes: #739128)
     - bump the cmake build dependency to 2.8.12.1-1.2, since that version fixes
       FindRuby.cmake for ruby 2.x versions
@@ -8,7 +8,7 @@ kross-interpreters (4:4.11.5-3) UNRELEASED; urgency=medium
       accept ruby versions greater than 1.9; patch
       upstream_ruby-do-not-reject-ruby-versions-greater-than-1.9.patch
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 12 Apr 2014 12:26:14 +0200
+ -- Pino Toscano <pino@debian.org>  Sat, 12 Apr 2014 12:42:23 +0200
 
 kross-interpreters (4:4.11.5-2) unstable; urgency=medium
 

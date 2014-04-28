@@ -1,9 +1,11 @@
-kross-interpreters (4:4.12.2-2~1) UNRELEASED; urgency=medium
+kross-interpreters (4:4.12.2-2) unstable; urgency=medium
 
   [ Pino Toscano ]
   * Merge changes from the 4:4.11.5-3 upload.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 12 Apr 2014 20:12:07 +0200
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Apr 2014 12:24:20 +0200
 
 kross-interpreters (4:4.12.2-1) experimental; urgency=medium
 

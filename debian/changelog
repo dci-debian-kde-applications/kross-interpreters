@@ -1,7 +1,7 @@
 kross-interpreters (4:4.12.2-2~1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
-  * Merge 4:4.11.5-3 upload.
+  * Merge changes from the 4:4.11.5-3 upload.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 12 Apr 2014 20:12:07 +0200
 

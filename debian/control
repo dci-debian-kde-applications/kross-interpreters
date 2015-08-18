@@ -8,7 +8,7 @@ Build-Depends: cmake (>= 2.8.12.1-1.2~),
                libkf5kdelibs4support-dev,
                pkg-kde-tools (>= 0.12),
                python-dev,
-               qtbase5-dev,
+               qtbase5-dev
 Uploaders: Modestas Vainius <modax@debian.org>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>

@@ -25,5 +25,5 @@ Description: Python module for Kross
  Kross is a scripting framework to enable scripting in various languages in all
  kinds of KDE applications.
  .
- Kross itself is a part of KDE Frameworks, this package contains the Kross Python
- plugin.
+ Kross itself is a part of KDE Frameworks, this package contains the Kross
+ Python plugin.

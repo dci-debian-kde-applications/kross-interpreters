@@ -2,12 +2,16 @@ Source: kross-interpreters
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cmake (>= 2.8.12.1-1.2~),
+Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
+               extra-cmake-modules (>= 0.0.10~),
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev (>= 4:4.11),
+               kross-dev (>= 5.11.0~),
+               libkf5kdelibs4support-dev (>= 5.11.0~),
                pkg-kde-tools (>= 0.12),
-               python-dev,
+               python-dev (>= 2~),
+               qtbase5-dev (>= 5.2.0~),
                ruby,
                ruby-dev
 Uploaders: Modestas Vainius <modax@debian.org>,
@@ -33,7 +37,7 @@ Description: Python module for Kross
 
 Package: krossruby
 Section: ruby
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Architecture: any
 Breaks: libkde4-ruby1.8 (<< 4:4.2.60)
 Replaces: libkde4-ruby1.8 (<< 4:4.2.60)

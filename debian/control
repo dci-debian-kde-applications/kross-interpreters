@@ -2,16 +2,19 @@ Source: kross-interpreters
 Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cmake (>= 2.8.12.1-1.2~),
-               debhelper (>= 9),
-               extra-cmake-modules,
-               libkf5kdelibs4support-dev,
-               pkg-kde-tools (>= 0.12),
-               python-dev,
-               qtbase5-dev
 Uploaders: Modestas Vainius <modax@debian.org>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 3.0~),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 0.0.10~),
+               kross-dev (>= 5.11.0~),
+               libkf5kdelibs4support-dev (>= 5.11.0~),
+               pkg-kde-tools (>= 0.12),
+               python-dev (>= 2~),
+               qtbase5-dev (>= 5.2.0~),
+               ruby,
+               ruby-dev
 Standards-Version: 3.9.6
 Homepage: http://projects.kde.org/projects/kde/kdebindings/kross-interpreters
 Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kross-interpreters.git

@@ -1,10 +1,17 @@
-kross-interpreters (4:15.08.0-2~1.gbpda3af8) UNRELEASED; urgency=medium
+kross-interpreters (4:15.08.0-2~2.gbp4f0b60) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @4f0b60e480126c3590d8267b78ff76043c88abe7 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @da3af863c49fa581b855ad69e3e4870c06b7ba00 **
 
   * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:34:52 +0200
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 10:34:16 +0200
 
 kross-interpreters (4:15.08.0-1) unstable; urgency=medium
 

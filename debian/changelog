@@ -8,6 +8,7 @@ kross-interpreters (4:16.08.0-0r1) UNRELEASED; urgency=medium
   * Disable the unit tests at build time, since they can work only with plugins
     already installed.
   * Change the watch file to look for stable releases only.
+  * Drop the libkf5kdelibs4support-dev build dependency, no more required now.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Aug 2016 07:07:28 +0200
 

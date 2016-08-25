@@ -2,6 +2,9 @@ kross-interpreters (4:16.08.0-0r1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * New upstream release.
+  * Enable krossruby, built again by upstream:
+    - add a krossruby binary
+    - add install files for krosspython and krosspython
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Aug 2016 07:07:28 +0200
 

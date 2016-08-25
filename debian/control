@@ -30,3 +30,14 @@ Description: Python module for Kross
  .
  Kross itself is a part of KDE Frameworks, this package contains the Kross
  Python plugin.
+
+Package: krossruby
+Section: ruby
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Architecture: any
+Description: Ruby module for Kross
+ Kross is a scripting framework to enable scripting in various languages in all
+ kinds of KDE applications.
+ .
+ Kross itself is a part of KDE Frameworks, this package contains the Kross
+ Ruby plugin.

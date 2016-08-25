@@ -7,6 +7,7 @@ kross-interpreters (4:16.08.0-0r1) UNRELEASED; urgency=medium
     - add install files for krosspython and krosspython
   * Disable the unit tests at build time, since they can work only with plugins
     already installed.
+  * Change the watch file to look for stable releases only.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Aug 2016 07:07:28 +0200
 
